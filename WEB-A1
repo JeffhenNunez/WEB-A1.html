@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project A-1 WEBSITE</title>
+
+    <style>
+        
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+            color: #0000FF;
+        }
+
+       
+        header {
+            background-color: #C0C0C0
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #008080;
+            text-shadow: 0 0 8px #00ffd5;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #808000;
+            font-weight: bold;
+            padding: 6px 12px;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #800080;
+            color: #FF00FF;
+        }
+
+       
+        main {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: rgba(255, 214, 214);
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+        }
+
+        section#content h2 {
+            color: #008080;
+            margin-bottom: 15px;
+            text-shadow: 0 0 4px #00ffd5;
+        }
+
+        section#content h3 {
+            color: #008080;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        
+        img {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.02);
+        }
+
+        
+        audio, video {
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 100%;
+            border-radius: 30px;
+        }
+
+       
+        footer {
+            background-color: #008080;
+            text-align: center;
+            padding: 15px 0;
+            color: #00ffd5;
+            font-weight: bold;
+            box-shadow: 0 -4px 10px rgba(0,0,0,0.5);
+            margin-top: 40px;
+        }
+
+       
+        section#content a {
+            color: #00ffd5;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section#content a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+   
+    <header>
+        <h1>PROJECT - A1</h1>
+        <nav>
+            <ul>
+                <li><a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/Output%201.HTML">Home</a></li>
+                <li><a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/TrashSample/Sample.html">About</a></li>
+                <li><a href="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit%20user%20files/Fynn.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="content">
+            <h2>PROJECT A1</h2>
+            <p>DISCOVER MORE ABOUT THIS WEBSITE</p>
+
+            <h3>PHOTO</h3>
+            <img src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Project A1 ~ Website 1.0/patrick-shaun-eAaPL2j8ygw-unsplash.jpg" alt="My Landscape Picture" width="600">
+
+            <h3>CLICK E.L</h3>
+            
+            <li><a href="https://github.com/JeffhenNunez/Web-Dev/blob/main/WEBDEV%20PROJECT#L9">GitHUB</a></li>
+            
+            <li><a href="https://vercel.com/jeffhennunezs-projects/~/ai-gateway/api-keys">Vercel</a></li>
+
+            <h3>AUDIO</h3>
+            <audio controls>
+                <source src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Project A1 ~ Website 1.0/Messenger_creation_1C73600A-537A-48A8-979D-D9EEC232EFA2.mp3" type="audio/mp3">
+               
+            </audio>
+
+            <h3>VIDEO</h3>
+            <video width="600" height="360" controls>
+                <source src="file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/Project A1 ~ Website 1.0/Messenger_creation_1C73600A-537A-48A8-979D-D9EEC232EFA2.mp4" type="video/mp4">
+                
+            </video>
+        </section>
+    </main>
+
+    <footer>
+       <p>First PROJECT-A1 WEBSITE</p>
+    </footer>
+</body>
+</html>
